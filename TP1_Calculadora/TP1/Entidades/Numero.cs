@@ -68,7 +68,7 @@ namespace Entidades
                 }
                return numeroDecimal.ToString(); // Resultado convertido a string
             } else {
-                return "Valor invalido."; // No era un numero binario
+                return "Valor invalido"; // No era un numero binario
             }
         }
 

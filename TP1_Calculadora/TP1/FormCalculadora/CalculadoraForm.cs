@@ -77,10 +77,10 @@ namespace MiCalculadora
         /// </summary>
         private void Limpiar()
         {
-            this.txtBoxNumero1.Text = "";
-            this.txtBoxNumero2.Text = "";
-            this.lblResultado.Text = "";
-            this.comboBoxSigno.SelectedIndex = -1;
+            txtBoxNumero1.Text = "";
+            txtBoxNumero2.Text = "";
+            lblResultado.Text = "";
+            comboBoxSigno.SelectedIndex = 0;
         }
 
         /// <summary>
@@ -100,6 +100,31 @@ namespace MiCalculadora
             {
                 return 0;
             }
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxNumero2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxSigno_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxNumero1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
