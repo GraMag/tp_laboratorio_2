@@ -1,0 +1,26 @@
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\bin\Debug\FormCalculadora.exe
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\bin\Debug\FormCalculadora.pdb
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\FormCalculadora.exe
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\FormCalculadora.pdb
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\bin\Debug\Entidades.dll
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\bin\Debug\Entidades.pdb
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\Programacion Maga\C#\Clase 4\TP1\FormCalculadora\obj\Debug\MiCalculadora.MiCalculadoraForm.resources
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\bin\Debug\FormCalculadora.exe
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\bin\Debug\FormCalculadora.pdb
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\bin\Debug\Entidades.dll
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\bin\Debug\Entidades.pdb
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\MiCalculadora.MiCalculadoraForm.resources
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\FormCalculadora.exe
+D:\Programacion Maga\C#\tp_laboratorio_2\TP1_Calculadora\TP1\FormCalculadora\obj\Debug\FormCalculadora.pdb
