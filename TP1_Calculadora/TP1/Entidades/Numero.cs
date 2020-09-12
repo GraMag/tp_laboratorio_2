@@ -66,7 +66,7 @@ namespace Entidades
                         numeroDecimal += Math.Pow(2, (binario.Length - 1 - i));
                     }
                 }
-               return numeroDecimal.ToString(); // Resultado convertido a string
+                return numeroDecimal.ToString(); // Resultado convertido a string
             } else {
                 return "Valor invalido"; // No era un numero binario
             }
@@ -87,17 +87,9 @@ namespace Entidades
             } 
             else
             {
-                //Mientras el numero sea positivo si su resto 0 agrega un 0 a la cadena y si es 1 agrega un 1
                 while(numero > 0)
                 {
-                    if((int)numero % 2 == 0) 
-                    {
-                        result = "0" + result;
-                    }
-                    else
-                    {
-                        result = "1" + result;
-                    }
+                    result = numero % 2 + result;
                     numero = (int) numero / 2;
                 }
             }

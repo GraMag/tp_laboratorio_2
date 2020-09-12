@@ -95,6 +95,7 @@
             this.buttonConvertirADecimal.Text = "a DECIMAL";
             this.buttonConvertirADecimal.UseVisualStyleBackColor = false;
             this.buttonConvertirADecimal.Click += new System.EventHandler(this.buttonConvertirADecimal_Click);
+            this.buttonConvertirADecimal.Enabled = false;
             // 
             // buttonConvertirABinario
             // 
@@ -108,6 +109,7 @@
             this.buttonConvertirABinario.Text = "a BINARIO";
             this.buttonConvertirABinario.UseVisualStyleBackColor = false;
             this.buttonConvertirABinario.Click += new System.EventHandler(this.buttonConvertirABinario_Click);
+            this.buttonConvertirABinario.Enabled = false;
             // 
             // groupBoxCalcular
             // 
@@ -135,7 +137,6 @@
             this.panelCalcular.Name = "panelCalcular";
             this.panelCalcular.Size = new System.Drawing.Size(634, 212);
             this.panelCalcular.TabIndex = 7;
-            this.panelCalcular.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // txtBoxNumero1
             // 
@@ -145,7 +146,6 @@
             this.txtBoxNumero1.Size = new System.Drawing.Size(155, 41);
             this.txtBoxNumero1.TabIndex = 0;
             this.txtBoxNumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBoxNumero1.TextChanged += new System.EventHandler(this.txtBoxNumero1_TextChanged);
             // 
             // txtBoxNumero2
             // 
@@ -155,7 +155,6 @@
             this.txtBoxNumero2.Size = new System.Drawing.Size(155, 41);
             this.txtBoxNumero2.TabIndex = 2;
             this.txtBoxNumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtBoxNumero2.TextChanged += new System.EventHandler(this.txtBoxNumero2_TextChanged);
             // 
             // comboBoxSigno
             // 
@@ -172,7 +171,7 @@
             this.comboBoxSigno.Name = "comboBoxSigno";
             this.comboBoxSigno.Size = new System.Drawing.Size(57, 44);
             this.comboBoxSigno.TabIndex = 1;
-            this.comboBoxSigno.SelectedIndexChanged += new System.EventHandler(this.comboBoxSigno_SelectedIndexChanged);
+            this.comboBoxSigno.SelectedIndex = 0;
             // 
             // buttonOperar
             // 
@@ -227,7 +226,6 @@
             this.lblResultado.Size = new System.Drawing.Size(313, 43);
             this.lblResultado.TabIndex = 6;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // MiCalculadoraForm
             // 

@@ -26,6 +26,7 @@ namespace MiCalculadora
         private void buttonOperar_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Operar(txtBoxNumero1.Text, txtBoxNumero2.Text, comboBoxSigno.Text).ToString("#.##");
+            buttonConvertirABinario.Enabled = true; 
         }
 
         /// <summary>
@@ -60,6 +61,8 @@ namespace MiCalculadora
         private void buttonConvertirABinario_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
+            buttonConvertirABinario.Enabled = false;
+            buttonConvertirADecimal.Enabled = true;
         }
 
         /// <summary>
@@ -70,7 +73,9 @@ namespace MiCalculadora
         private void buttonConvertirADecimal_Click(object sender, EventArgs e)
             {
                 lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
-            }
+            buttonConvertirABinario.Enabled = true;
+            buttonConvertirADecimal.Enabled = false;
+        }
 
         /// <summary>
         /// Reinicia los valores de los elementos en pantalla
@@ -100,31 +105,6 @@ namespace MiCalculadora
             {
                 return 0;
             }
-        }
-
-        private void lblResultado_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtBoxNumero2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBoxSigno_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtBoxNumero1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
