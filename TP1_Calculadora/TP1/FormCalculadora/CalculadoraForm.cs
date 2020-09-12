@@ -11,9 +11,9 @@ using Entidades;
 
 namespace MiCalculadora
 {
-    public partial class MiCalculadoraForm : Form
+    public partial class LaCalculadora : Form
     {
-        public MiCalculadoraForm()
+        public LaCalculadora()
         {
             InitializeComponent();
         }

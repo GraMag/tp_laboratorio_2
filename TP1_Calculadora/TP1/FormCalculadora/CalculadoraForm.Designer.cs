@@ -1,6 +1,6 @@
 ﻿namespace MiCalculadora
 {
-    partial class MiCalculadoraForm
+    partial class LaCalculadora
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiCalculadoraForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LaCalculadora));
             this.panelFondo = new System.Windows.Forms.Panel();
             this.groupBoxConvertirA = new System.Windows.Forms.GroupBox();
             this.panelConvertirA = new System.Windows.Forms.Panel();

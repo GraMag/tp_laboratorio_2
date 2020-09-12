@@ -87,10 +87,17 @@ namespace Entidades
             } 
             else
             {
-                while(numero > 0)
+                if ((int)numero == 1)
                 {
-                    result = numero % 2 + result;
-                    numero = (int) numero / 2;
+                    result = "1";
+                }
+                else
+                {
+                    while (numero > 0)
+                    {
+                        result = numero % 2 + result;
+                        numero = (int)numero / 2;
+                    }
                 }
             }
             return result;
@@ -103,7 +110,8 @@ namespace Entidades
         /// <returns>["Valor Invalido"] si es 0 o negativo [Numero binario] si se puede convertir</returns>
         public static string DecimalBinario(string numero)
         {
-            return DecimalBinario(ValidarNumero(numero));
+            Numero numer0 = new Numero(numero);
+            return DecimalBinario(numer0.numero);
         }
 
         /// <summary>
