@@ -91,20 +91,16 @@ namespace MiCalculadora
         /// <summary>
         /// Valida que los valores ingresados son numeros enteros, si lo son realiza las operaciones, sino devuelte 0
         /// </summary>
-        /// <param name="numero1">Numero entero</param>
-        /// <param name="numero2">Numero entero</param>
+        /// <param name="numero1">String de numeros</param>
+        /// <param name="numero2">String de numeros</param>
         /// <param name="operador">Operador aritmetico</param>
-        /// <returns>[Resultado de la operacion] si puede realizarse el calculo. [0] Si no se pudo calcular</returns>
+        /// <returns>Resultado de la operacion</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
-            if (int.TryParse(numero1, out int num1) && int.TryParse(numero2, out int num2))
-            {
-                return Calculadora.Operar(num1, num2, operador);
-            }
-            else
-            {
-                return 0;
-            }
+            Numero num1 = new Numero(numero1);
+            Numero num2 = new Numero(numero2);
+
+            return Calculadora.Operar(num1, num2, operador);
         }
     }
 }

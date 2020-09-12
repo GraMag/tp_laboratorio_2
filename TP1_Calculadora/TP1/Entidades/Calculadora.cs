@@ -15,26 +15,23 @@ namespace Entidades
         /// <param name="num2">Numero entero</param>
         /// <param name="operador">Operador aritmetico</param>
         /// <returns>Resultado de la operacion</returns>
-        public static double Operar(int num1, int num2, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double result = 0;
-            
-            Numero number1 = new Numero(num1);
-            Numero number2 = new Numero(num2);
-
+  
             switch (Calculadora.ValidarOperador(operador[0]))
             {
                 case "+":
-                    result = number1 + number2;
+                    result = num1 + num2;
                     break;
                 case "-":
-                    result = number1 - number2;
+                    result = num1 - num2;
                     break;
                 case "*":
-                    result = number1 * number2;
+                    result = num1 * num2;
                     break;
                 case "/":
-                    result = number1 / number2;
+                    result = num1 / num2;
                     break;
             }
             return result;
