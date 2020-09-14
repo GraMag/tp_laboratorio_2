@@ -191,7 +191,15 @@ namespace Entidades
         /// [double n] El numero ingresado si es un numero valido</returns>
         private static double ValidarNumero(string strNumero)
         {
-            double.TryParse(strNumero, out double numero); // El metodo tryparse si no puede convertir el numero devuelve 0
+            StringBuilder sb = new StringBuilder(strNumero);
+            for(int i = 0; i < strNumero.Length; i++)
+            {
+                if (strNumero[i].Equals('.'))
+                {
+                    sb.Replace('.', ',');
+                }
+            }
+            double.TryParse(sb.ToString(), out double numero); // El metodo tryparse si no puede convertir el numero devuelve 0
 
             return numero;
         }
