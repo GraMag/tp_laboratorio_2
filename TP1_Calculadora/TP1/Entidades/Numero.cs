@@ -80,7 +80,7 @@ namespace Entidades
         public static string DecimalBinario(double numero)
         {
             string result = "";
-
+            
             if(numero <= 0) // Si no es un numero entero positivo no se puede convertir
             {
                 result = "Valor invalido";
@@ -95,7 +95,7 @@ namespace Entidades
                 {
                     while (numero > 0)
                     {
-                        result = numero % 2 + result;
+                        result = (int) numero % 2 + result;
                         numero = (int)numero / 2;
                     }
                 }
