@@ -76,6 +76,7 @@
             // panelCalcular
             // 
             this.panelCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panelCalcular.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelCalcular.Controls.Add(this.lblResultado);
             this.panelCalcular.Controls.Add(this.buttonCerrar);
             this.panelCalcular.Controls.Add(this.btnLimpiar);
@@ -93,7 +94,7 @@
             this.lblResultado.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblResultado.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.DeepPink;
-            this.lblResultado.Location = new System.Drawing.Point(292, 11);
+            this.lblResultado.Location = new System.Drawing.Point(288, 9);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblResultado.Size = new System.Drawing.Size(313, 43);
@@ -157,6 +158,7 @@
             this.comboBoxSigno.Name = "comboBoxSigno";
             this.comboBoxSigno.Size = new System.Drawing.Size(57, 44);
             this.comboBoxSigno.TabIndex = 1;
+            this.comboBoxSigno.SelectedIndex = 0;
             // 
             // txtBoxNumero2
             // 
@@ -170,7 +172,7 @@
             // txtBoxNumero1
             // 
             this.txtBoxNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxNumero1.Location = new System.Drawing.Point(40, 68);
+            this.txtBoxNumero1.Location = new System.Drawing.Point(40, 71);
             this.txtBoxNumero1.Name = "txtBoxNumero1";
             this.txtBoxNumero1.Size = new System.Drawing.Size(155, 41);
             this.txtBoxNumero1.TabIndex = 0;
@@ -191,6 +193,7 @@
             // panelConvertirA
             // 
             this.panelConvertirA.BackColor = System.Drawing.Color.Navy;
+            this.panelConvertirA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelConvertirA.Controls.Add(this.buttonConvertirADecimal);
             this.panelConvertirA.Controls.Add(this.buttonConvertirABinario);
             this.panelConvertirA.Location = new System.Drawing.Point(23, 21);
