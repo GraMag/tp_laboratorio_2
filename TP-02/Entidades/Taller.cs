@@ -58,7 +58,7 @@ namespace Entidades
 
             sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", t.vehiculos.Count, t.espacioDisponible);
             sb.AppendLine("");
-            
+
             foreach (Vehiculo v in t.vehiculos)
             {
                 switch (tipo)
@@ -98,14 +98,14 @@ namespace Entidades
         /// <param name="vehiculo">Objeto a agregar</param>
         /// <returns>Listado de vehiculos</returns>
         public static Taller operator +(Taller t, Vehiculo vehiculo)
-        {   
-            foreach (Vehiculo v in t.vehiculos)
-            {
-                if (v == vehiculo)
-                    return t;
-            }
+        {
             if (t.vehiculos.Count < t.espacioDisponible)
             {
+                foreach (Vehiculo v in t.vehiculos)
+                {
+                    if (v == vehiculo)
+                        return t;
+                }
                 t.vehiculos.Add(vehiculo);
             }
             return t;
